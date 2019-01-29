@@ -1,2 +1,2 @@
 # SimplePortfolio
-# SimplePortfolio Base directory
+Base directory
