@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/SimplePortfolio/assets/normalize.css">
+  <link rel="stylesheet" href="/SimplePortfolio/projects/cube/cube.css">
+  <title>Cube</title>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <!-- Note: Safari doesn't support restarting the automated rotation once stopped, and neither Chrome nor Safari support a nice transition from animation to a single side. Firefox does both things very well. -->
+  
+    <input type="radio" name="rotate-switches" id="rotate" checked class="rotate">
+    <label for="rotate" class="rotate-label">Auto</label>
+  
+    <input type="radio" name="rotate-switches" id="front" class="rotate">
+    <label for="front" class="rotate-label">Front</label>
+  
+    <input type="radio" name="rotate-switches" id="left" class="rotate">
+    <label for="left" class="rotate-label">Left</label>
+  
+    <input type="radio" name="rotate-switches" id="back" class="rotate">
+    <label for="back" class="rotate-label">Back</label>
+  
+    <input type="radio" name="rotate-switches" id="right" class="rotate">
+    <label for="right" class="rotate-label">Right</label>
+  
+    <input type="radio" name="rotate-switches" id="top" class="rotate">
+    <label for="top" class="rotate-label">Top</label>
+  
+    <input type="radio" name="rotate-switches" id="bottom" class="rotate">
+    <label for="bottom" class="rotate-label">Bottom</label>
+  
+    <div class="perspective">
+  
+      <div class="cube">
+        <div class="front">
+          <img class="cover" src="1.jpg">
+        </div>
+        <div class="back">
+          <img class="cover" src="2.jpg">
+        </div>
+        <div class="top">
+          <img class="cover" src="3.jpg">
+        </div>
+        <div class="bottom">
+          <img class="cover" src="4.jpg">
+        </div>
+        <div class="left">
+          <img class="cover" src="5.jpg">
+        </div>
+        <div class="right">
+          <img class="cover" src="6.jpg">
+        </div>
+      </div>
+  
+    </div>
+  
+  </div>
+
+</body>
+</html>
