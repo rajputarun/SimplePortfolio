@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/SimplePortfolio/overlayIndex.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <!--  -->
+            <h2 style="text-align:center">Info Card</h2>
+            <div class="card">
+              <img src="https://i.ibb.co/YT6kWvf/image-arun.jpg" alt="Arun">
+              <h1>Arun Rajput</h1>
+              <p class="title">Software Engineer | Digital Marketing</p>
+              <p>B.E. | Mumbai University</p>
+              <div style="margin: 24px 0;">
+                <a target="_blank" href="mailto:rajputarun0@gmail.com"><i class="fa fa-envelope-square"></i></a>
+                &nbsp;
+                <a target="_blank" href="https://github.com/rajputarun"><i class="fa fa-git-square"></i></a>
+                &nbsp;  
+                <a target="_blank" href="https://rajputarun.github.io/SimplePortfolio/"><i class="fa fa-link"></i></a>
+                &nbsp;
+                <a target="_blank" href="http://www.linkedin.com/in/arunrajput17"><i class="fa fa-linkedin"></i></a>
+               </div>
+             <p><a href="tel:+91-9762708480"><button id="contact">Contact</button></a></p>
+            </div>
+  </div>
+
+<span style="font-size:80px;cursor:pointer" onclick="openNav()">&#9776;Hire Me</span>
+<div class="intro">
+  <h1>Hello !</h1>
+  &nbsp;
+  <h5>My name is Arun Rajput.</h5>
+  <h5>I'm a Software developer from Mumbai with experience of an year working as a freelancer.</h5> 
+  <h5>I love the art of technology to solve real world problems.</h5>
+  <h5>Check out my portfolio and see what I can do for you!</h5>
+
+</div>
+<nav class="main" id="portfolio">
+    <p><a target="_blank" href="/SimplePortfolio/projects/index_project.html"><button>Portfolio</button></a></p>
+</nav>
+<nav class="main" id="cert">
+  <p><a target="_blank" href="/SimplePortfolio/certificates/index_certificate.html"><button>Certificates</button></a></p>
+</nav>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
+</body>
+</html>

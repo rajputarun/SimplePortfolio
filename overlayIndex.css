@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+    background-color: rgb(255, 255, 255);
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*
+*/
+*{
+    margin:0;
+    padding:0;
+    }
+  img {
+    width:100%;
+    border: 1px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    width: 85%;
+
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+   button:hover, a:hover {
+    opacity: 0.7;
+  }
+  #contact {
+    width: 100%;
+  }
+  p button a {
+    color: white;
+    width: 20px;
+  }
+  .intro{
+    width: 21%; 
+    margin:auto;
+    text-align: center;
+    word-spacing: 2px;
+  }
+ .main {
+    width: 15%;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    }
+  #portfolio {
+    float: left;
+  }
+  #cert {
+    float:right;
+  }
